@@ -148,9 +148,3 @@ if(!this.head){
 }
 
 export default linkedList
-
-// let myLinkedlist = new linkedList(0);
-//
-// myLinkedlist.push(5);
-// myLinkedlist.push(10)
-// myLinkedlist.push(15)
