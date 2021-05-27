@@ -6,7 +6,7 @@ class Node {
     }
 }
 
-class BST {
+class BSTtraversal {
     constructor() {
         this.root = null
     }
@@ -30,7 +30,7 @@ class BST {
                  if (temp.right === null) {
                      temp.right = newNode
                      return this
-                 } 
+                 }
                  temp = temp.right
              }
          }
@@ -100,12 +100,4 @@ class BST {
     }
 }
 
-
-let myTree = new BST()
-myTree.insert(47)
-myTree.insert(21)
-myTree.insert(76)
-myTree.insert(18)
-myTree.insert(27)
-myTree.insert(52)
-myTree.insert(82)
+export default BSTtraversal

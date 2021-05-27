@@ -10,7 +10,7 @@ class Node  {
 class BST{
     constructor(){
         this.root = null
-    } 
+    }
    insert(value) {
        const newNode = new Node(value)
        if(this.root === null){
@@ -33,7 +33,7 @@ class BST{
                }
                temp =temp.right
            }
-        
+
 
        }
 
@@ -52,17 +52,10 @@ class BST{
        }
        return false
 
-   } 
+   }
 
  }
+export default BST
 
 
-
-    let myTree = new BST()
-    myTree.insert(47)
-    myTree.insert(21)
-    myTree.insert(76)
-    myTree.insert(18)
-    myTree.insert(27)
-    myTree.insert(52)
-    myTree.insert(82)
+  
